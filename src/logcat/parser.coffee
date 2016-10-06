@@ -2,7 +2,7 @@
 
 class Parser extends EventEmitter
   @get: (type) ->
-    parser = require "./parser/#{type}"
+    parser = require "./parser/binary"
     new parser()
 
   parse: ->

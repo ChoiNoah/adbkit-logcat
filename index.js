@@ -3,8 +3,6 @@
 
   Path = require('path');
 
-  module.exports = (function() {
-      return require('./lib/logcat');
-  })();
+  module.exports = require('./lib/logcat');
 
 }).call(this);
